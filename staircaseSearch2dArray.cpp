@@ -12,7 +12,7 @@ int main() {
             return 0;
         }
          else if (m[i][j]<target){
-            i++;
+            i++; 
         }
         else{
            j--;
