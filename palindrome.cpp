@@ -15,7 +15,7 @@ int main() {
     cout <<a<<"\n";
 if (a==b){
     cout<<"palindrome";
-}
+} 
 else {cout<<"not palindrome";}
     return 0;
 }
