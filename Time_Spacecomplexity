@@ -1,0 +1,16 @@
+Big O notation 
+its the wrost case scenario of the program 
+
+time complexity means how much the code have to run to get the solution 
+for example in the best case it could be in the first time 
+so best would be big O(1)
+and in wrost it have to travel whole so it would be O(n)
+
+
+
+best time complexity is O(1)>(log n)>(n)>(n log n)>(n^2)>(n^3)>n(2^n)>(n!)
+Space complexity
+amount of space taken by the algorithm as function of input size (n)
+for example if we create a array in a program of sorting an array then it took same size as the input so 
+space complexity will be O(n)
+and if we created a integer answer then it will be constant which is represented by O(1)
