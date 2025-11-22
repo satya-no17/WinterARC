@@ -17,5 +17,13 @@ int main() {
    cout<< name.back()<<endl;//to print the last element of the  array 
    cout<< name.at(1)<<endl;//print the deasired element of the array
 
+   vector<int>::iterator it;
+   for (it = name.begin();it!=name.end();it++){
+        cout<<*(it)<<" ";
+   }
+   cout<<endl;
+   for (auto it = name.rbegin();it!=name.rend();it++){
+    cout<<*(it)<<" ";
+   }
     return 0;
 } 
