@@ -10,6 +10,8 @@ using namespace std;
         }return ans;
     }
 int main() {
-    vector<int>nums = {}
+    vector<int>nums ={ 1,1,1};
+   
+    prefixesDivBy5(nums);
     return 0;
 }
