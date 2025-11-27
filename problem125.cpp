@@ -19,6 +19,5 @@ bool alpha(char ch){
 int main() {
     string s = "A man, a plan, a canal: Panama";
    cout<< isPalindrome(s);
-   cout<<s[5];
     return 0;
 }
